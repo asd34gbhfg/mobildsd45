@@ -2,7 +2,7 @@ class RedirectController {
     constructor(targetURL, maxWidth, delay) {
         this.targetURL = targetURL;
         this.maxWidth = maxWidth;
-        this.delay = delay || 5000; // 5000 milisegundos (5 segundos) por defecto
+        this.delay = delay || 3000; // 5000 milisegundos (5 segundos) por defecto
     }
 
     isMobileDevice() {
